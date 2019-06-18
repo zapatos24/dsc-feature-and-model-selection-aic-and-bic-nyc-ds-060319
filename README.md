@@ -34,7 +34,6 @@ The AIC acts as a penalized log-likelihood criterion, giving a balance between a
 
 Note that directly comparing the values of log-likelihood maxima for different models (without including the penalty) is not good enough for model comparison because including more parameters in a model will *always* give rise to an increased value of the maximum likelihood. Due to that reason, searching for the model with maximal log-likelihood
 would always lead to the model with the most parameters. The AIC balances this by penalizing for number of parameters, hence searching for models with few parameters but fitting the data well.
-data well.
 
 In Python, the AIC is built in in Statsmodels and some instances of Scikit learn (such as LassoLarsIC, which you'll use in the lab coming up soon.
 
